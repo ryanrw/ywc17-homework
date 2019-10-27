@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/ywc17-homework/static/js/main.1ba989eb.chunk.js",
+    "main.js.map": "/ywc17-homework/static/js/main.1ba989eb.chunk.js.map",
+    "runtime-main.js": "/ywc17-homework/static/js/runtime-main.00c567ec.js",
+    "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.00c567ec.js.map",
+    "static/js/2.5082071c.chunk.js": "/ywc17-homework/static/js/2.5082071c.chunk.js",
+    "static/js/2.5082071c.chunk.js.map": "/ywc17-homework/static/js/2.5082071c.chunk.js.map",
+    "index.html": "/ywc17-homework/index.html",
+    "precache-manifest.3b977fcfb6d885b1c1692c50a45faaf6.js": "/ywc17-homework/precache-manifest.3b977fcfb6d885b1c1692c50a45faaf6.js",
+    "service-worker.js": "/ywc17-homework/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00c567ec.js",
+    "static/js/2.5082071c.chunk.js",
+    "static/js/main.1ba989eb.chunk.js"
+  ]
+}
