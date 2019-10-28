@@ -5,7 +5,6 @@ import LeftColumn from '../static/TopBanner/banner-left.png'
 import CenterColumn from '../static/TopBanner/banner-center.png'
 import RightColumn from '../static/TopBanner/banner-right.png'
 import CenterLog from '../static/TopBanner/banner.png'
-import { browserQueryRule } from '../utils'
 import { ImageColumnProps } from '../react-app-env'
 
 const BannerMain = styled.div`
