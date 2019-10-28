@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/ywc17-homework/static/js/main.1ba989eb.chunk.js",
-    "main.js.map": "/ywc17-homework/static/js/main.1ba989eb.chunk.js.map",
+    "main.js": "/ywc17-homework/static/js/main.b55246d3.chunk.js",
+    "main.js.map": "/ywc17-homework/static/js/main.b55246d3.chunk.js.map",
     "runtime-main.js": "/ywc17-homework/static/js/runtime-main.00c567ec.js",
     "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.00c567ec.js.map",
-    "static/js/2.5082071c.chunk.js": "/ywc17-homework/static/js/2.5082071c.chunk.js",
-    "static/js/2.5082071c.chunk.js.map": "/ywc17-homework/static/js/2.5082071c.chunk.js.map",
+    "static/js/2.4d1721ae.chunk.js": "/ywc17-homework/static/js/2.4d1721ae.chunk.js",
+    "static/js/2.4d1721ae.chunk.js.map": "/ywc17-homework/static/js/2.4d1721ae.chunk.js.map",
     "index.html": "/ywc17-homework/index.html",
-    "precache-manifest.3b977fcfb6d885b1c1692c50a45faaf6.js": "/ywc17-homework/precache-manifest.3b977fcfb6d885b1c1692c50a45faaf6.js",
+    "precache-manifest.5e1ed51a9d4442d0d2d8ec5f6a936dcc.js": "/ywc17-homework/precache-manifest.5e1ed51a9d4442d0d2d8ec5f6a936dcc.js",
     "service-worker.js": "/ywc17-homework/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.00c567ec.js",
-    "static/js/2.5082071c.chunk.js",
-    "static/js/main.1ba989eb.chunk.js"
+    "static/js/2.4d1721ae.chunk.js",
+    "static/js/main.b55246d3.chunk.js"
   ]
 }
