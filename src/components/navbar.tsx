@@ -2,27 +2,20 @@ import React, { useState } from 'react'
 import styled from '@emotion/styled'
 
 import Logo from '../static/Footer/footer.png'
-import { browserQueryRule } from '../utils'
-import { NavbarProps } from '../react-app-env'
-
-interface NavbarMainProps {
-  isOpen: boolean
-}
+import { NavbarProps, NavbarMainProps } from '../react-app-env'
 
 const NavbarMain = styled.div<NavbarMainProps>`
   background: #fff;
   ${({ isOpen }) => !isOpen && `box-shadow: 0 1px 1px hsla(0, 0%, 0%, 3%);`}
 
-  ${browserQueryRule.mobile} {
-    padding: 5px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    > img {
-      width: 35px;
-      height: 48px;
-    }
+  > img {
+    width: 35px;
+    height: 48px;
   }
 `
 
@@ -34,13 +27,11 @@ const MobileLink = styled.div`
   a {
     text-decoration: none;
 
-    ${browserQueryRule.mobile} {
-      color: rgba(0, 0, 0, 0.5);
-      padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
 
-      :focus {
-        color: #000;
-      }
+    :focus {
+      color: #000;
     }
   }
 `

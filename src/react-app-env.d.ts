@@ -31,3 +31,11 @@ export interface Data {
   detail: string
   condition: string
 }
+
+export interface ImageColumnProps {
+  imageSrc: string
+}
+
+interface NavbarMainProps {
+  isOpen: boolean
+}
