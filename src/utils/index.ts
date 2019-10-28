@@ -1,3 +1,4 @@
 import { browserSizes, browserQueryRule } from './css'
+import { useData } from './data'
 
-export { browserSizes, browserQueryRule }
+export { browserSizes, browserQueryRule, useData }
