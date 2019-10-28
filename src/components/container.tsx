@@ -5,7 +5,7 @@ import { browserQueryRule } from '../utils'
 
 const ContainerMain = styled.div`
   ${browserQueryRule.mobile} {
-    margin: 0 50px;
+    margin: 0 30px;
   }
 `
 
