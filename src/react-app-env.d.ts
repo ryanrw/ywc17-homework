@@ -15,3 +15,19 @@ export interface BrowserQuery {
   tablet: string
   mobile: number
 }
+
+export interface NavbarItem {
+  label: string
+  href: string
+}
+
+export interface NavbarProps {
+  navbarItems: NavbarItem[]
+}
+
+export interface Data {
+  navbarItems: NavbarItem[]
+  duration: string
+  detail: string
+  condition: string
+}

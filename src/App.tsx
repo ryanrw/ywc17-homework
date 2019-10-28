@@ -1,14 +1,22 @@
 import React from 'react'
 
-import { Container, GlobalStyle } from './components'
+import { Container, GlobalStyle, Navbar } from './components'
+import { useData } from './utils'
 
 const App: React.FC = () => {
-  return (
-    <>
-      <Container>Hello world!</Container>
-      <GlobalStyle />
-    </>
-  )
+  const data = useData()
+
+  if (data) {
+    return (
+      <>
+        <Navbar navbarItems={data.navbarItems} />
+        <Container>Hello world!</Container>
+        <GlobalStyle />
+      </>
+    )
+  }
+
+  return <div>loading...</div>
 }
 
 export default App
