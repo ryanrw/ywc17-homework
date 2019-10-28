@@ -33,7 +33,7 @@ export const Banner: React.FC = () => {
     <BannerMain>
       <ImageColumn imageSrc={LeftColumn} />
       <ImageColumn imageSrc={CenterColumn}>
-        <img src={CenterLog} />
+        <img src={CenterLog} alt='banner' />
       </ImageColumn>
       <ImageColumn imageSrc={RightColumn} />
     </BannerMain>
