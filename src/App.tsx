@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, GlobalStyle, Navbar } from './components'
+import { Container, GlobalStyle, Navbar, Banner } from './components'
 import { useData } from './utils'
 
 const App: React.FC = () => {
@@ -10,6 +10,7 @@ const App: React.FC = () => {
     return (
       <>
         <Navbar navbarItems={data.navbarItems} />
+        <Banner />
         <Container>Hello world!</Container>
         <GlobalStyle />
       </>
