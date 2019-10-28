@@ -19,6 +19,7 @@ const globalStyle = css`
     margin: 0;
     font-size: 16px;
     font-family: 'TATSanaSuksa';
+    color: #333333;
   }
 `
 
