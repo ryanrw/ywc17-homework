@@ -1,6 +1,13 @@
 import React from 'react'
 
-import { Container, GlobalStyle, Navbar, Banner, Duration } from './components'
+import {
+  Container,
+  GlobalStyle,
+  Navbar,
+  Banner,
+  Duration,
+  Register,
+} from './components'
 import { useData } from './utils'
 
 const App: React.FC = () => {
@@ -13,6 +20,7 @@ const App: React.FC = () => {
         <Banner />
         <Container>
           <Duration duration={data.duration} />
+          <Register />
         </Container>
         <GlobalStyle />
       </>
