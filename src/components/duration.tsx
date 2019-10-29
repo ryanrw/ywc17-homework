@@ -5,7 +5,8 @@ import { DurationProps } from '../react-app-env'
 
 const DurationMain = styled.div`
   text-align: center;
-  margin: 35px 0;
+  margin-top: 35px;
+  margin-bottom: 10px;
 
   h1 {
     font-size: 1rem;
