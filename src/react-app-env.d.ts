@@ -39,3 +39,7 @@ export interface ImageColumnProps {
 interface NavbarMainProps {
   isOpen: boolean
 }
+
+export interface DurationProps {
+  duration: string
+}
