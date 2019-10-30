@@ -9,6 +9,7 @@ import { Condition } from './condition'
 import { BottomBanner } from './bottom_banner'
 import { BottomLogos } from './bottom_logos'
 import { TopFooter } from './top_footer'
+import { BottomFooter } from './bottom_footer'
 
 export {
   Container,
@@ -22,4 +23,5 @@ export {
   BottomBanner,
   BottomLogos,
   TopFooter,
+  BottomFooter,
 }

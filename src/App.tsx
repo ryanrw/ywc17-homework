@@ -12,6 +12,7 @@ import {
   BottomBanner,
   BottomLogos,
   TopFooter,
+  BottomFooter,
 } from './components'
 import { useData } from './utils'
 
@@ -34,6 +35,7 @@ const App: React.FC = () => {
           <BottomLogos />
         </Container>
         <TopFooter />
+        <BottomFooter />
         <GlobalStyle />
       </>
     )
