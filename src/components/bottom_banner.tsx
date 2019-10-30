@@ -10,6 +10,7 @@ const BottomBannerMain = styled.div`
   flex-flow: wrap;
   justify-content: center;
   padding: 0 15px;
+  margin-bottom: 80px;
 
   img {
     width: 80%;
