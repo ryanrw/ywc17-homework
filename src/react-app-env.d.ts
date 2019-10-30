@@ -5,6 +5,7 @@ export interface BrowserSize {
   [key: string]: number
   laptop: number
   tablet: number
+  largePhone: number
   mobile: number
 }
 
@@ -15,7 +16,8 @@ export interface MediaQuery {
 export interface BrowserQuery {
   laptop: string
   tablet: string
-  mobile: number
+  largePhone: string
+  mobile: string
 }
 
 export interface NavbarItem {

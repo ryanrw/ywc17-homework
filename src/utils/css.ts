@@ -4,6 +4,7 @@ import { BrowserSize, MediaQuery, BrowserQuery } from '../react-app-env'
 export const browserSizes: BrowserSize = {
   laptop: 1024,
   tablet: 768,
+  largePhone: 578,
   mobile: 320,
 }
 
