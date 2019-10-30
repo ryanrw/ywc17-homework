@@ -4,6 +4,8 @@ import styled from '@emotion/styled'
 import { ConditionProps } from '../react-app-env'
 
 const ConditionMain = styled.div`
+  margin-bottom: 80px;
+
   h1 {
     font-size: 1rem;
   }
