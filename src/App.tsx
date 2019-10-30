@@ -7,6 +7,7 @@ import {
   Banner,
   Duration,
   Register,
+  Detail,
 } from './components'
 import { useData } from './utils'
 
@@ -20,7 +21,10 @@ const App: React.FC = () => {
         <Banner />
         <Container>
           <Duration duration={data.duration} />
-          <Register />
+        </Container>
+        <Register />
+        <Container>
+          <Detail detail={data.detail} />
         </Container>
         <GlobalStyle />
       </>

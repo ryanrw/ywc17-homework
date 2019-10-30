@@ -43,3 +43,7 @@ interface NavbarMainProps {
 export interface DurationProps {
   duration: string
 }
+
+export interface DetailProps {
+  detail: string
+}

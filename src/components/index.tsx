@@ -4,5 +4,6 @@ import { Navbar } from './navbar'
 import { Banner } from './banner'
 import { Duration } from './duration'
 import { Register } from './register'
+import { Detail } from './detail'
 
-export { Container, GlobalStyle, Navbar, Banner, Duration, Register }
+export { Container, GlobalStyle, Navbar, Banner, Duration, Register, Detail }
