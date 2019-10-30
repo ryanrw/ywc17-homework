@@ -1,4 +1,6 @@
 /// <reference types="react-scripts" />
+declare module '*.png'
+
 export interface BrowserSize {
   [key: string]: number
   laptop: number

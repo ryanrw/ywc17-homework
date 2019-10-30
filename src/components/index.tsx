@@ -7,6 +7,7 @@ import { Register } from './register'
 import { Detail } from './detail'
 import { Condition } from './condition'
 import { BottomBanner } from './bottom_banner'
+import { BottomLogos } from './bottom_logos'
 
 export {
   Container,
@@ -18,4 +19,5 @@ export {
   Detail,
   Condition,
   BottomBanner,
+  BottomLogos,
 }

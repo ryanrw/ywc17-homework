@@ -10,6 +10,7 @@ import {
   Detail,
   Condition,
   BottomBanner,
+  BottomLogos,
 } from './components'
 import { useData } from './utils'
 
@@ -29,6 +30,7 @@ const App: React.FC = () => {
           <Detail detail={data.detail} />
           <Condition condition={data.condition} />
           <BottomBanner />
+          <BottomLogos />
         </Container>
         <GlobalStyle />
       </>
