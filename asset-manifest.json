@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.js": "/ywc17-homework/static/js/main.bf10c074.chunk.js",
-    "main.js.map": "/ywc17-homework/static/js/main.bf10c074.chunk.js.map",
+    "main.js": "/ywc17-homework/static/js/main.1609466e.chunk.js",
+    "main.js.map": "/ywc17-homework/static/js/main.1609466e.chunk.js.map",
     "runtime-main.js": "/ywc17-homework/static/js/runtime-main.00c567ec.js",
     "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.00c567ec.js.map",
-    "static/js/2.4d8231b3.chunk.js": "/ywc17-homework/static/js/2.4d8231b3.chunk.js",
-    "static/js/2.4d8231b3.chunk.js.map": "/ywc17-homework/static/js/2.4d8231b3.chunk.js.map",
+    "static/js/2.479dc455.chunk.js": "/ywc17-homework/static/js/2.479dc455.chunk.js",
+    "static/js/2.479dc455.chunk.js.map": "/ywc17-homework/static/js/2.479dc455.chunk.js.map",
     "index.html": "/ywc17-homework/index.html",
-    "precache-manifest.2569310e15f61355b5ea0728da4706ea.js": "/ywc17-homework/precache-manifest.2569310e15f61355b5ea0728da4706ea.js",
+    "precache-manifest.a2eafe926f95662d6741ecc6a98ba307.js": "/ywc17-homework/precache-manifest.a2eafe926f95662d6741ecc6a98ba307.js",
     "service-worker.js": "/ywc17-homework/service-worker.js",
+    "static/media/Banner_CGD_Sq.png": "/ywc17-homework/static/media/Banner_CGD_Sq.6c42699d.png",
+    "static/media/Banner_KTB_SQ.png": "/ywc17-homework/static/media/Banner_KTB_SQ.ed683f12.png",
+    "static/media/Banner_TAT_Hotline_Sq.png": "/ywc17-homework/static/media/Banner_TAT_Hotline_Sq.1b47ec36.png",
+    "static/media/CGD.png": "/ywc17-homework/static/media/CGD.093f4f57.png",
+    "static/media/FPO.png": "/ywc17-homework/static/media/FPO.34f69a5b.png",
+    "static/media/Krungthai.png": "/ywc17-homework/static/media/Krungthai.8b71f26b.png",
+    "static/media/MOF.png": "/ywc17-homework/static/media/MOF.398d843b.png",
+    "static/media/MOTS.png": "/ywc17-homework/static/media/MOTS.09477969.png",
+    "static/media/TAT.png": "/ywc17-homework/static/media/TAT.2529bd05.png",
     "static/media/banner-center.png": "/ywc17-homework/static/media/banner-center.9e7d7f4a.png",
     "static/media/banner-left.png": "/ywc17-homework/static/media/banner-left.1b481040.png",
     "static/media/banner-right.png": "/ywc17-homework/static/media/banner-right.b28170f0.png",
@@ -16,7 +25,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.00c567ec.js",
-    "static/js/2.4d8231b3.chunk.js",
-    "static/js/main.bf10c074.chunk.js"
+    "static/js/2.479dc455.chunk.js",
+    "static/js/main.1609466e.chunk.js"
   ]
 }
