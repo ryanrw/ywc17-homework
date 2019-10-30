@@ -15,6 +15,7 @@ const RegisLink = styled.a`
     line-height: 1.5;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    margin-bottom: 50px;
     /* @todo #4 add transition */
   }
 `
