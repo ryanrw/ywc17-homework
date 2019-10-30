@@ -4,6 +4,8 @@ import styled from '@emotion/styled'
 import { DetailProps } from '../react-app-env'
 
 const DetailMain = styled.div`
+  margin-bottom: 40px;
+
   h1 {
     color: #e6332a;
     font-size: 1.5rem;
