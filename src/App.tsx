@@ -11,6 +11,7 @@ import {
   Condition,
   BottomBanner,
   BottomLogos,
+  TopFooter,
 } from './components'
 import { useData } from './utils'
 
@@ -32,6 +33,7 @@ const App: React.FC = () => {
           <BottomBanner />
           <BottomLogos />
         </Container>
+        <TopFooter />
         <GlobalStyle />
       </>
     )
