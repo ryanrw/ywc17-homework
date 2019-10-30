@@ -8,6 +8,7 @@ import {
   Duration,
   Register,
   Detail,
+  Condition,
 } from './components'
 import { useData } from './utils'
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Register />
         <Container>
           <Detail detail={data.detail} />
+          <Condition condition={data.condition} />
         </Container>
         <GlobalStyle />
       </>

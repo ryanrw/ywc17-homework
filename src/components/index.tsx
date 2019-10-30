@@ -5,5 +5,15 @@ import { Banner } from './banner'
 import { Duration } from './duration'
 import { Register } from './register'
 import { Detail } from './detail'
+import { Condition } from './condition'
 
-export { Container, GlobalStyle, Navbar, Banner, Duration, Register, Detail }
+export {
+  Container,
+  GlobalStyle,
+  Navbar,
+  Banner,
+  Duration,
+  Register,
+  Detail,
+  Condition,
+}

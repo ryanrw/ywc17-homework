@@ -47,3 +47,7 @@ export interface DurationProps {
 export interface DetailProps {
   detail: string
 }
+
+export interface ConditionProps {
+  condition: string
+}
