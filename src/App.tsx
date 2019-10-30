@@ -9,6 +9,7 @@ import {
   Register,
   Detail,
   Condition,
+  BottomBanner,
 } from './components'
 import { useData } from './utils'
 
@@ -27,6 +28,7 @@ const App: React.FC = () => {
         <Container>
           <Detail detail={data.detail} />
           <Condition condition={data.condition} />
+          <BottomBanner />
         </Container>
         <GlobalStyle />
       </>

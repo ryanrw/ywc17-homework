@@ -6,6 +6,7 @@ import { Duration } from './duration'
 import { Register } from './register'
 import { Detail } from './detail'
 import { Condition } from './condition'
+import { BottomBanner } from './bottom_banner'
 
 export {
   Container,
@@ -16,4 +17,5 @@ export {
   Register,
   Detail,
   Condition,
+  BottomBanner,
 }
