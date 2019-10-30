@@ -11,6 +11,7 @@ import TAT from '../static/Logos/TAT.png'
 const BottomLogosMain = styled.div`
   display: grid;
   grid-template-columns: repeat(3, calc(100% / 3));
+  margin-bottom: 80px;
 
   img {
     justify-self: center;
