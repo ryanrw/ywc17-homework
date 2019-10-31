@@ -62,7 +62,7 @@ const BottomFooterMain = styled.div`
   }
 `
 
-export const BottomFooter: React.FC = () => {
+const BottomFooter: React.FC = () => {
   return (
     <BottomFooterMain>
       <div className='container'>
@@ -80,3 +80,5 @@ export const BottomFooter: React.FC = () => {
     </BottomFooterMain>
   )
 }
+
+export default BottomFooter

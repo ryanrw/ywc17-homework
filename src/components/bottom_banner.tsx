@@ -45,7 +45,7 @@ const BottomBannerMain = styled.div`
   }
 `
 
-export const BottomBanner: React.FC = () => {
+const BottomBanner: React.FC = () => {
   return (
     <BottomBannerMain>
       <img src={KTB} alt='คอลเซ็นเตอร์กรุงไทย KTB Call Center 021111144' />
@@ -57,3 +57,5 @@ export const BottomBanner: React.FC = () => {
     </BottomBannerMain>
   )
 }
+
+export default BottomBanner

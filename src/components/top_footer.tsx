@@ -86,8 +86,7 @@ const TopFooterMain = styled.div`
   }
 `
 
-// @todo #6 add tel link
-export const TopFooter: React.FC = () => {
+const TopFooter: React.FC = () => {
   return (
     <TopFooterMain>
       <div className='container'>
@@ -117,3 +116,5 @@ export const TopFooter: React.FC = () => {
     </TopFooterMain>
   )
 }
+
+export default TopFooter

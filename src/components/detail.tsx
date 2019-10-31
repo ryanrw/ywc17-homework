@@ -29,7 +29,7 @@ const DetailMain = styled.div`
   }
 `
 
-export const Detail: React.FC<DetailProps> = ({ detail }) => {
+const Detail: React.FC<DetailProps> = ({ detail }) => {
   return (
     <DetailMain>
       <h1>
@@ -41,3 +41,5 @@ export const Detail: React.FC<DetailProps> = ({ detail }) => {
     </DetailMain>
   )
 }
+
+export default Detail

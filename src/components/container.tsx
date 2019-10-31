@@ -26,6 +26,8 @@ const ContainerMain = styled.div`
   }
 `
 
-export const Container: React.FC = props => {
+const Container: React.FC = props => {
   return <ContainerMain>{props.children}</ContainerMain>
 }
+
+export default Container

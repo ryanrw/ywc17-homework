@@ -47,7 +47,7 @@ const ImageColumn = styled.div<ImageColumnProps>`
   }
 `
 
-export const Banner: React.FC = () => {
+const Banner: React.FC = () => {
   return (
     <BannerMain>
       <ImageColumn imageSrc={LeftColumn} />
@@ -58,3 +58,5 @@ export const Banner: React.FC = () => {
     </BannerMain>
   )
 }
+
+export default Banner

@@ -38,7 +38,7 @@ const BottomLogosMain = styled.div`
   }
 `
 
-export const BottomLogos: React.FC = () => {
+const BottomLogos: React.FC = () => {
   return (
     <BottomLogosMain>
       <img src={CGD} alt='logo' />
@@ -50,3 +50,5 @@ export const BottomLogos: React.FC = () => {
     </BottomLogosMain>
   )
 }
+
+export default BottomLogos

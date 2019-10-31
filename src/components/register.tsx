@@ -58,7 +58,7 @@ const StyleHr = styled.hr`
   }
 `
 
-export const Register: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <RegisterMain>
       <RegisLink href='https://www.xn--b3caa1e2a7e2b0h2be.com/close.html'>
@@ -74,3 +74,5 @@ export const Register: React.FC = () => {
     </RegisterMain>
   )
 }
+
+export default Register

@@ -16,7 +16,7 @@ const ConditionMain = styled.div`
   }
 `
 
-export const Condition: React.FC<ConditionProps> = ({ condition }) => {
+const Condition: React.FC<ConditionProps> = ({ condition }) => {
   return (
     <ConditionMain>
       <h1>เงื่อนไขการเข้าร่วมมาตรการ</h1>
@@ -24,3 +24,5 @@ export const Condition: React.FC<ConditionProps> = ({ condition }) => {
     </ConditionMain>
   )
 }
+
+export default Condition

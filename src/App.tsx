@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import {
   Container,
@@ -13,6 +13,7 @@ import {
   BottomLogos,
   TopFooter,
   BottomFooter,
+  ErrorHandler,
 } from './components'
 import { useData } from './utils'
 
@@ -22,19 +23,23 @@ const App: React.FC = () => {
   if (data) {
     return (
       <>
-        <Navbar navbarItems={data.navbarItems} />
-        <Banner />
-        <Container>
-          <Duration duration={data.duration} />
-          <Register />
-          <Detail detail={data.detail} />
-          <Condition condition={data.condition} />
-          <BottomBanner />
-          <BottomLogos />
-        </Container>
-        <TopFooter />
-        <BottomFooter />
-        <GlobalStyle />
+        <ErrorHandler>
+          <Suspense fallback={<div>...loading</div>}>
+            <Navbar navbarItems={data.navbarItems} />
+            <Banner />
+            <Container>
+              <Duration duration={data.duration} />
+              <Register />
+              <Detail detail={data.detail} />
+              <Condition condition={data.condition} />
+              <BottomBanner />
+              <BottomLogos />
+            </Container>
+            <TopFooter />
+            <BottomFooter />
+            <GlobalStyle />
+          </Suspense>
+        </ErrorHandler>
       </>
     )
   }

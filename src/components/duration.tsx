@@ -27,7 +27,7 @@ const Time = styled.p`
   }
 `
 
-export const Duration: React.FC<DurationProps> = ({ duration }) => {
+const Duration: React.FC<DurationProps> = ({ duration }) => {
   return (
     <DurationMain>
       <h1>ตั้งแต่วันที่</h1>
@@ -35,3 +35,5 @@ export const Duration: React.FC<DurationProps> = ({ duration }) => {
     </DurationMain>
   )
 }
+
+export default Duration

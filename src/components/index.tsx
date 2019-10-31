@@ -1,15 +1,19 @@
-import { Container } from './container'
-import { GlobalStyle } from './global'
-import { Navbar } from './navbar'
-import { Banner } from './banner'
-import { Duration } from './duration'
-import { Register } from './register'
-import { Detail } from './detail'
-import { Condition } from './condition'
-import { BottomBanner } from './bottom_banner'
-import { BottomLogos } from './bottom_logos'
-import { TopFooter } from './top_footer'
-import { BottomFooter } from './bottom_footer'
+import { lazy } from 'react'
+
+import { ErrorHandler } from './error_handling'
+
+const Container = lazy(() => import('./container'))
+const GlobalStyle = lazy(() => import('./global'))
+const Navbar = lazy(() => import('./navbar'))
+const Banner = lazy(() => import('./banner'))
+const Duration = lazy(() => import('./duration'))
+const Register = lazy(() => import('./register'))
+const Detail = lazy(() => import('./detail'))
+const Condition = lazy(() => import('./condition'))
+const BottomBanner = lazy(() => import('./bottom_banner'))
+const BottomLogos = lazy(() => import('./bottom_logos'))
+const TopFooter = lazy(() => import('./top_footer'))
+const BottomFooter = lazy(() => import('./bottom_footer'))
 
 export {
   Container,
@@ -24,4 +28,5 @@ export {
   BottomLogos,
   TopFooter,
   BottomFooter,
+  ErrorHandler,
 }
