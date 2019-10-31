@@ -4,6 +4,7 @@ declare module '*.png'
 export interface BrowserSize {
   [key: string]: number
   laptop: number
+  largeTablet: number
   tablet: number
   largePhone: number
   mobile: number
@@ -15,6 +16,7 @@ export interface MediaQuery {
 
 export interface BrowserQuery {
   laptop: string
+  largeTablet: string
   tablet: string
   largePhone: string
   mobile: string
