@@ -7,6 +7,7 @@ import Krungthai from '../static/Logos/Krungthai.png'
 import MOF from '../static/Logos/MOF.png'
 import MOTS from '../static/Logos/MOTS.png'
 import TAT from '../static/Logos/TAT.png'
+import { browserQueryRule } from '../utils/css'
 
 const BottomLogosMain = styled.div`
   display: grid;
@@ -16,6 +17,24 @@ const BottomLogosMain = styled.div`
   img {
     justify-self: center;
     width: 56px;
+  }
+
+  ${browserQueryRule.largePhone} {
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 30px;
+    margin-right: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  ${browserQueryRule.largeTablet} {
+    grid-gap: 30px;
+
+    img {
+      width: 102px;
+    }
   }
 `
 

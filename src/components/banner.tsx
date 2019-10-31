@@ -6,15 +6,24 @@ import CenterColumn from '../static/TopBanner/banner-center.png'
 import RightColumn from '../static/TopBanner/banner-right.png'
 import CenterLog from '../static/TopBanner/banner.png'
 import { ImageColumnProps } from '../react-app-env'
+import { browserQueryRule } from '../utils'
 
 const BannerMain = styled.div`
   width: 100%;
   display: flex;
   height: 220px;
+
+  ${browserQueryRule.largePhone} {
+    height: 242px;
+  }
+
+  ${browserQueryRule.tablet} {
+    height: 350px;
+  }
 `
 
 const ImageColumn = styled.div<ImageColumnProps>`
-  flex: 0 0 calc(100% / 3);
+  flex: 0 1 calc(100% / 3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +34,16 @@ const ImageColumn = styled.div<ImageColumnProps>`
 
   img {
     width: 110px;
+
+    ${browserQueryRule.largePhone} {
+      width: 146px;
+      height: 173px;
+    }
+
+    ${browserQueryRule.tablet} {
+      width: 240px;
+      height: auto;
+    }
   }
 `
 

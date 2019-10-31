@@ -2,12 +2,17 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import { ConditionProps } from '../react-app-env'
+import { browserQueryRule } from '../utils'
 
 const ConditionMain = styled.div`
   margin-bottom: 80px;
 
   h1 {
     font-size: 1rem;
+  }
+
+  ${browserQueryRule.tablet} {
+    max-width: 83.3%;
   }
 `
 

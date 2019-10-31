@@ -2,38 +2,87 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import Logo from '../static/Footer/footer.png'
+import { browserQueryRule } from '../utils'
 
 const TopFooterMain = styled.div`
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-  padding: 44px 50px;
   background: #fafafa;
-
-  > div {
-    display: grid;
-    grid-template-columns: 1fr;
-
-    > div {
-      width: 100%;
-    }
-  }
-
-  h1 {
-    font-weight: normal;
-    font-size: 1rem;
-    color: #e6332a;
-    margin-top: 24px;
-    margin-bottom: 0;
-  }
-
-  p {
-    margin: 0;
-    font-size: 0.875rem;
-  }
+  padding: 44px 30px;
 
   .no-wrap {
     white-space: nowrap;
+  }
+
+  .container {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    h1 {
+      font-weight: normal;
+      font-size: 1rem;
+      color: #e6332a;
+      margin-top: 24px;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.875rem;
+    }
+  }
+
+  ${browserQueryRule.largePhone} {
+    padding: 30px;
+
+    h1 {
+      font-size: 1rem;
+    }
+
+    .container {
+      padding: 0;
+      grid-template-columns: repeat(3, 1fr);
+
+      > .logo {
+        grid-column: 1 / span 3;
+
+        img {
+          width: 108px;
+        }
+      }
+
+      div {
+        padding: 0 15px;
+      }
+    }
+  }
+
+  ${browserQueryRule.tablet} {
+    .container {
+      grid-template-columns: repeat(4, 1fr);
+      max-width: 720px;
+      margin: 0 auto;
+
+      .logo {
+        grid-column: auto;
+        padding: 0 15px;
+
+        img {
+          width: 108px;
+        }
+      }
+    }
+  }
+
+  ${browserQueryRule.largeTablet} {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  ${browserQueryRule.laptop} {
+    .container {
+      max-width: 1140px;
+    }
   }
 `
 
@@ -41,8 +90,10 @@ const TopFooterMain = styled.div`
 export const TopFooter: React.FC = () => {
   return (
     <TopFooterMain>
-      <img src={Logo} alt='logo' />
-      <div>
+      <div className='container'>
+        <div className='logo'>
+          <img src={Logo} alt='logo' />
+        </div>
         <div>
           <h1>ข้อมูลลงทะเบียนประชาชน</h1>
           <p>

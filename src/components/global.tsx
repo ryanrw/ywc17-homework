@@ -14,11 +14,13 @@ const globalStyle = css`
     font-weight: bold;
   }
 
-  html,
-  body {
-    margin: 0;
+  html {
     font-size: 16px;
     font-family: 'TATSanaSuksa';
+  }
+
+  body {
+    margin: 0;
     color: #333333;
   }
 `

@@ -2,9 +2,11 @@ import React from 'react'
 import styled from '@emotion/styled'
 
 import { DetailProps } from '../react-app-env'
+import { browserQueryRule } from '../utils/css'
 
 const DetailMain = styled.div`
   margin-bottom: 40px;
+  width: 100%;
 
   h1 {
     color: #e6332a;
@@ -16,14 +18,24 @@ const DetailMain = styled.div`
   .no-wrap {
     white-space: nowrap;
   }
+
+  ${browserQueryRule.tablet} {
+    max-width: 83.3%;
+
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.8;
+    }
+  }
 `
 
 export const Detail: React.FC<DetailProps> = ({ detail }) => {
   return (
     <DetailMain>
       <h1>
-        มาตรการส่งเสริมการบริโภคในประเทศ{' '}
-        <span className='no-wrap'>“ชิมช้อปใช้”</span>
+        มาตรการส่งเสริมการบริโภค
+        <br />
+        ในประเทศ <span className='no-wrap'>“ชิมช้อปใช้”</span>
       </h1>
       <div dangerouslySetInnerHTML={{ __html: detail }} />
     </DetailMain>

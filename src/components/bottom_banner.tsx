@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import KTB from '../static/Banner/Banner_KTB_SQ.png'
 import CGDCallCenter from '../static/Banner/Banner_CGD_Sq.png'
 import TATHotline from '../static/Banner/Banner_TAT_Hotline_Sq.png'
+import { browserQueryRule } from '../utils'
 
 const BottomBannerMain = styled.div`
   display: flex;
@@ -14,6 +15,33 @@ const BottomBannerMain = styled.div`
 
   img {
     width: 80%;
+  }
+
+  ${browserQueryRule.largePhone} {
+    img {
+      max-width: 510px;
+    }
+  }
+
+  ${browserQueryRule.tablet} {
+    flex-flow: nowrap;
+
+    img {
+      max-width: 210px;
+      max-height: 210px;
+      padding: 0 15px;
+    }
+  }
+
+  ${browserQueryRule.largeTablet} {
+    justify-content: space-between;
+
+    img {
+      flex: 0 0 calc(100% / 3);
+      max-width: calc(100% / 3);
+      max-height: none;
+      padding: 0;
+    }
   }
 `
 
