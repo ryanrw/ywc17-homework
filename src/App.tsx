@@ -26,9 +26,7 @@ const App: React.FC = () => {
         <Banner />
         <Container>
           <Duration duration={data.duration} />
-        </Container>
-        <Register />
-        <Container>
+          <Register />
           <Detail detail={data.detail} />
           <Condition condition={data.condition} />
           <BottomBanner />
