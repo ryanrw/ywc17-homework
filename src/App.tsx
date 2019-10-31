@@ -14,6 +14,7 @@ import {
   TopFooter,
   BottomFooter,
   ErrorHandler,
+  Loader,
 } from './components'
 import { useData } from './utils'
 
@@ -24,7 +25,7 @@ const App: React.FC = () => {
     return (
       <>
         <ErrorHandler>
-          <Suspense fallback={<div>...loading</div>}>
+          <Suspense fallback={<Loader />}>
             <Navbar navbarItems={data.navbarItems} />
             <Banner />
             <Container>
@@ -44,7 +45,7 @@ const App: React.FC = () => {
     )
   }
 
-  return <div>loading...</div>
+  return <Loader />
 }
 
 export default App

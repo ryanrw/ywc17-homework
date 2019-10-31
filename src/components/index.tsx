@@ -1,6 +1,7 @@
 import { lazy } from 'react'
 
 import { ErrorHandler } from './error_handling'
+import { Loader } from './loader'
 
 const Container = lazy(() => import('./container'))
 const GlobalStyle = lazy(() => import('./global'))
@@ -29,4 +30,5 @@ export {
   TopFooter,
   BottomFooter,
   ErrorHandler,
+  Loader,
 }
