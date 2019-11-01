@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import LeftColumn from '../static/TopBanner/banner-left.png'
-import CenterColumn from '../static/TopBanner/banner-center.png'
-import RightColumn from '../static/TopBanner/banner-right.png'
-import CenterLog from '../static/TopBanner/banner.png'
+import LeftColumn from '../static/TopBanner/banner-left.webp'
+import CenterColumn from '../static/TopBanner/banner-center.webp'
+import RightColumn from '../static/TopBanner/banner-right.webp'
+import CenterLog from '../static/TopBanner/banner.webp'
 import { ImageColumnProps } from '../react-app-env'
 import { browserQueryRule } from '../utils'
 

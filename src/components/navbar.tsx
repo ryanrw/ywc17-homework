@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from '@emotion/styled'
 
-import Logo from '../static/Footer/footer.png'
+import Logo from '../static/Footer/footer.webp'
 import { NavbarProps, NavbarMainProps } from '../react-app-env'
 import { Hamburger } from './hamburger'
 import { browserQueryRule } from '../utils'

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import KTB from '../static/Banner/Banner_KTB_SQ.png'
-import CGDCallCenter from '../static/Banner/Banner_CGD_Sq.png'
-import TATHotline from '../static/Banner/Banner_TAT_Hotline_Sq.png'
+import KTB from '../static/Banner/Banner_KTB_SQ.webp'
+import CGDCallCenter from '../static/Banner/Banner_CGD_Sq.webp'
+import TATHotline from '../static/Banner/Banner_TAT_Hotline_Sq.webp'
 import { browserQueryRule } from '../utils'
 
 const BottomBannerMain = styled.div`

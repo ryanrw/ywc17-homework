@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import CGD from '../static/Logos/CGD.png'
-import FPO from '../static/Logos/FPO.png'
-import Krungthai from '../static/Logos/Krungthai.png'
-import MOF from '../static/Logos/MOF.png'
-import MOTS from '../static/Logos/MOTS.png'
-import TAT from '../static/Logos/TAT.png'
+import CGD from '../static/Logos/CGD.webp'
+import FPO from '../static/Logos/FPO.webp'
+import Krungthai from '../static/Logos/Krungthai.webp'
+import MOF from '../static/Logos/MOF.webp'
+import MOTS from '../static/Logos/MOTS.webp'
+import TAT from '../static/Logos/TAT.webp'
 import { browserQueryRule } from '../utils/css'
 
 const BottomLogosMain = styled.div`

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-import Logo from '../static/Footer/footer.png'
+import Logo from '../static/Footer/footer.webp'
 import { browserQueryRule } from '../utils'
 
 const TopFooterMain = styled.div`

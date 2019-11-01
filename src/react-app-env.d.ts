@@ -1,5 +1,6 @@
 /// <reference types="react-scripts" />
 declare module '*.png'
+declare module '*.webp'
 
 export interface BrowserSize {
   [key: string]: number
