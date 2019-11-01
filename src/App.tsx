@@ -30,7 +30,9 @@ const App: React.FC = () => {
             <Banner />
             <Container>
               <Duration duration={data.duration} />
-              <Register />
+            </Container>
+            <Register />
+            <Container>
               <Detail detail={data.detail} />
               <Condition condition={data.condition} />
               <BottomBanner />

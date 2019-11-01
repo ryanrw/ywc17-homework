@@ -24,16 +24,13 @@ const RegisLink = styled.a`
     margin: 0 30px 50px;
     transition: background-color 0s ease-in-out, box-shadow 0s ease-in-out;
 
-    ${browserQueryRule.largePhone} {
-      margin: 0 auto 50px;
-    }
-
     ${browserQueryRule.tablet} {
       font-size: 1.5rem;
     }
 
     ${browserQueryRule.largeTablet} {
       max-width: 800px;
+      margin: 0 auto 50px;
     }
 
     :hover {
