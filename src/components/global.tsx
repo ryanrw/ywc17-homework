@@ -14,6 +14,11 @@ const globalStyle = css`
     font-weight: bold;
   }
 
+  @font-face {
+    font-family: 'TATSanaChon';
+    src: url(./fonts/TATSanaChon-Regular.woff2);
+  }
+
   html {
     font-size: 16px;
     font-family: 'TATSanaSuksa';
