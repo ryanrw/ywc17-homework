@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/ywc17-homework/static/js/main.b5ad8f7b.chunk.js",
-    "main.js.map": "/ywc17-homework/static/js/main.b5ad8f7b.chunk.js.map",
-    "runtime-main.js": "/ywc17-homework/static/js/runtime-main.2765616a.js",
-    "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.2765616a.js.map",
+    "main.js": "/ywc17-homework/static/js/main.f13a56f3.chunk.js",
+    "main.js.map": "/ywc17-homework/static/js/main.f13a56f3.chunk.js.map",
+    "runtime-main.js": "/ywc17-homework/static/js/runtime-main.fe699a71.js",
+    "runtime-main.js.map": "/ywc17-homework/static/js/runtime-main.fe699a71.js.map",
     "static/js/2.466957d9.chunk.js": "/ywc17-homework/static/js/2.466957d9.chunk.js",
     "static/js/2.466957d9.chunk.js.map": "/ywc17-homework/static/js/2.466957d9.chunk.js.map",
     "static/js/3.1312d0b9.chunk.js": "/ywc17-homework/static/js/3.1312d0b9.chunk.js",
@@ -28,10 +28,10 @@
     "static/js/12.0b4ea93b.chunk.js.map": "/ywc17-homework/static/js/12.0b4ea93b.chunk.js.map",
     "static/js/13.597653fe.chunk.js": "/ywc17-homework/static/js/13.597653fe.chunk.js",
     "static/js/13.597653fe.chunk.js.map": "/ywc17-homework/static/js/13.597653fe.chunk.js.map",
-    "static/js/14.02c61470.chunk.js": "/ywc17-homework/static/js/14.02c61470.chunk.js",
-    "static/js/14.02c61470.chunk.js.map": "/ywc17-homework/static/js/14.02c61470.chunk.js.map",
+    "static/js/14.6cf6b38f.chunk.js": "/ywc17-homework/static/js/14.6cf6b38f.chunk.js",
+    "static/js/14.6cf6b38f.chunk.js.map": "/ywc17-homework/static/js/14.6cf6b38f.chunk.js.map",
     "index.html": "/ywc17-homework/index.html",
-    "precache-manifest.60b97180ce85657d0d02c9a71196122c.js": "/ywc17-homework/precache-manifest.60b97180ce85657d0d02c9a71196122c.js",
+    "precache-manifest.6baa4948e1ca80e55cfb756632e7ab60.js": "/ywc17-homework/precache-manifest.6baa4948e1ca80e55cfb756632e7ab60.js",
     "service-worker.js": "/ywc17-homework/service-worker.js",
     "static/media/Banner_CGD_Sq.png": "/ywc17-homework/static/media/Banner_CGD_Sq.6c42699d.png",
     "static/media/Banner_KTB_SQ.png": "/ywc17-homework/static/media/Banner_KTB_SQ.ed683f12.png",
@@ -48,8 +48,8 @@
     "static/media/banner.png": "/ywc17-homework/static/media/banner.0b9c7c9c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2765616a.js",
+    "static/js/runtime-main.fe699a71.js",
     "static/js/2.466957d9.chunk.js",
-    "static/js/main.b5ad8f7b.chunk.js"
+    "static/js/main.f13a56f3.chunk.js"
   ]
 }
