@@ -87,8 +87,6 @@ const NavbarMain = styled.div<NavbarMainProps>`
   }
 `
 
-// @todo #1 add hamburger
-// @todo #5 make navbar togglable with transition
 const Navbar: React.FC<NavbarProps> = ({ navbarItems }) => {
   const [isOpen, setOpen] = useState(false)
 
