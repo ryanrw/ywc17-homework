@@ -17,6 +17,11 @@ const BottomLogosMain = styled.div`
   img {
     justify-self: center;
     width: 56px;
+    transition: all ease-in-out 550ms;
+
+    :hover {
+      transform: scale(1.2);
+    }
   }
 
   ${browserQueryRule.largePhone} {
@@ -41,10 +46,10 @@ const BottomLogosMain = styled.div`
 const BottomLogos: React.FC = () => {
   return (
     <BottomLogosMain>
-      <img src={CGD} alt='logo' />
-      <img src={FPO} alt='logo' />
-      <img src={Krungthai} alt='logo' />
       <img src={MOF} alt='logo' />
+      <img src={FPO} alt='logo' />
+      <img src={CGD} alt='logo' />
+      <img src={Krungthai} alt='logo' />
       <img src={MOTS} alt='logo' />
       <img src={TAT} alt='logo' />
     </BottomLogosMain>
