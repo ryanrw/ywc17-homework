@@ -11,8 +11,20 @@ const ConditionMain = styled.div`
     font-size: 1rem;
   }
 
+  ${browserQueryRule.largePhone} {
+    h1,
+    div {
+      font-size: 0.875rem;
+    }
+  }
+
   ${browserQueryRule.tablet} {
     max-width: 83.3%;
+
+    h1,
+    div {
+      font-size: 1.125rem;
+    }
   }
 `
 

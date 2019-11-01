@@ -19,12 +19,22 @@ const DetailMain = styled.div`
     white-space: nowrap;
   }
 
+  ${browserQueryRule.largePhone} {
+    div {
+      font-size: 0.875rem;
+    }
+  }
+
   ${browserQueryRule.tablet} {
     max-width: 83.3%;
 
     h1 {
       font-size: 2.25rem;
       line-height: 1.8;
+    }
+
+    div {
+      font-size: 1.125rem;
     }
   }
 `
