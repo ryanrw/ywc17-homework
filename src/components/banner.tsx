@@ -12,9 +12,11 @@ const BannerMain = styled.div`
   width: 100%;
   display: flex;
   height: 220px;
+  padding-top: 68px;
 
   ${browserQueryRule.largePhone} {
     height: 242px;
+    padding-top: 63px;
   }
 
   ${browserQueryRule.tablet} {

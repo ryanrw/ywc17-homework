@@ -42,7 +42,7 @@ export interface ImageColumnProps {
   imageSrc: string
 }
 
-interface NavbarMainProps {
+export interface NavbarMainProps {
   isOpen: boolean
 }
 
@@ -56,4 +56,11 @@ export interface DetailProps {
 
 export interface ConditionProps {
   condition: string
+}
+
+export interface HamburgerProps {
+  state: {
+    isOpen: boolean
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>
+  }
 }
