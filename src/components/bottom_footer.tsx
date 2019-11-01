@@ -8,6 +8,10 @@ const BottomFooterMain = styled.div`
   background: #213a8f;
   font-weight: bold;
 
+  ${browserQueryRule.tablet} {
+    padding: 0;
+  }
+
   .container {
     padding: 0 30px;
     display: grid;
