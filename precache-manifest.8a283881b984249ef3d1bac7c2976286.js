@@ -1,67 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cfdeaab44daa2643fc31f4bba7e1619",
+    "revision": "cc628cb2ab62d5a1fcb8f453c76b7ce0",
     "url": "/ywc17-homework/index.html"
   },
   {
-    "revision": "93eb93f886a8a378f022",
-    "url": "/ywc17-homework/static/js/10.3e64d065.chunk.js"
+    "revision": "a6e738af9f38d224c82f",
+    "url": "/ywc17-homework/static/js/2.69f41515.chunk.js"
   },
   {
-    "revision": "4ca7d9ead6d35980f317",
-    "url": "/ywc17-homework/static/js/11.200b9846.chunk.js"
+    "revision": "27c9fab7f501990ce5b0",
+    "url": "/ywc17-homework/static/js/main.1a26b49e.chunk.js"
   },
   {
-    "revision": "50302a72047566a2e5da",
-    "url": "/ywc17-homework/static/js/12.0b4ea93b.chunk.js"
-  },
-  {
-    "revision": "1d1ff96571cbd280c673",
-    "url": "/ywc17-homework/static/js/13.597653fe.chunk.js"
-  },
-  {
-    "revision": "d2c6a6ba3f017a3d027a",
-    "url": "/ywc17-homework/static/js/14.6cf6b38f.chunk.js"
-  },
-  {
-    "revision": "f13540f2fa5fcde4cab3",
-    "url": "/ywc17-homework/static/js/2.466957d9.chunk.js"
-  },
-  {
-    "revision": "740330f22e010c372f4e",
-    "url": "/ywc17-homework/static/js/3.d09e7836.chunk.js"
-  },
-  {
-    "revision": "9766108b0352b814ae4b",
-    "url": "/ywc17-homework/static/js/4.a0a35ceb.chunk.js"
-  },
-  {
-    "revision": "e2c50d0ed557226beb60",
-    "url": "/ywc17-homework/static/js/5.35eb4547.chunk.js"
-  },
-  {
-    "revision": "3cf9b59df3cd1f4d152b",
-    "url": "/ywc17-homework/static/js/6.eea8e33b.chunk.js"
-  },
-  {
-    "revision": "f435522500b6a64c83d0",
-    "url": "/ywc17-homework/static/js/7.9f5a3112.chunk.js"
-  },
-  {
-    "revision": "bf010fd9eb0459a627e6",
-    "url": "/ywc17-homework/static/js/8.5d3cbd58.chunk.js"
-  },
-  {
-    "revision": "66892343af47a65495c2",
-    "url": "/ywc17-homework/static/js/9.bd32cb6e.chunk.js"
-  },
-  {
-    "revision": "87b9ff54b0f840f6b1da",
-    "url": "/ywc17-homework/static/js/main.f13a56f3.chunk.js"
-  },
-  {
-    "revision": "8d8fb6b4932199aa4171",
-    "url": "/ywc17-homework/static/js/runtime-main.2b57e827.js"
+    "revision": "4ce7d9eb37a85652813c",
+    "url": "/ywc17-homework/static/js/runtime-main.00c567ec.js"
   },
   {
     "revision": "74263ae7dcdfe398dad189ec63927776",
