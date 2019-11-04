@@ -1,5 +1,7 @@
 import React, { Suspense } from 'react'
 
+import { sanitize } from './utils'
+
 import {
   Container,
   GlobalStyle,
@@ -33,8 +35,8 @@ const App: React.FC = () => {
             </Container>
             <Register />
             <Container>
-              <Detail detail={data.detail} />
-              <Condition condition={data.condition} />
+              <Detail detail={sanitize(data.detail)} />
+              <Condition condition={sanitize(data.condition)} />
               <BottomBanner />
               <BottomLogos />
             </Container>
